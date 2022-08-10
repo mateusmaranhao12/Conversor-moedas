@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+}
+
+.input-group{
+    margin-top: 20px;
+}
+
+.input-group-text{
+    color: white;
+    font-weight: bold;
+}
+
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:20px;
+}
+
+.btn-yellow{
+    text-transform: uppercase;
+    font-weight: bold;
+    background: rgb(255, 196, 0);
+    color: white;
+    border: none;
+}
+
+.btn-yellow:hover{
+    background: rgb(255, 123, 0);
+    color: white;
+    border: none;
+}
+
+.btn-yellow:active{
+    background: rgb(255, 81, 0);
+    color: white;
+    border: none;
+}

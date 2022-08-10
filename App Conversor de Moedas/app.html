@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!--Estilo customizado-->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+
+    <!--JavaScript-->
+    <script src="js/scripts.js"></script>
+
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <div class="jumbotron">
+       <div class="container">
+        <h1>Conversor de Moedas</h1>
+        <div class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text bg-warning">Valor em R$</span>
+            </div>
+           <input class="form-control" type="text" id="real" placeholder="Digite um valor">
+        </div>
+        <div class="form-group">
+            <label for="moeda">Moeda que deseja Converter</label>
+            <select class="form-control" id="moeda">
+                <option value=""></option>
+                <option value="dolar">Dólar $</option>
+                <option value="canadense">Dólar Canadense C$</option>
+                <option value="australiano">Dólar Australiano A$</option>
+                <option value="euro">Euro €</option>
+                <option value="iene">Iene ¥</option>
+            </select>
+        </div>
+        <button onclick="converterValores()" class="btn btn-yellow btn-block" type="button">Converter</button>
+        <div class="input-group">
+            <div class="input-group-prepend">
+               <span class="input-group-text bg-warning">Valor da conversão</span>
+            </div>
+           <input class="form-control" type="text" id="valor" readonly>
+        </div>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
